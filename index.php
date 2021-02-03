@@ -36,9 +36,13 @@
     </div>
 
     <!-- Moving background !-->
-
-    <!-- Bootstrap scripts !-->
-    <?php include'./bsscripts.php'; ?>
+    <div class="page">
+        <header>
+            <h1>Rush b</h1>
+        </header>
+        </h1>
+        <!-- Bootstrap scripts !-->
+        <?php include'./bsscripts.php'; ?>
 
 </body>
 
