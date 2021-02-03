@@ -26,7 +26,7 @@ body {
 }
 #navbar-kleuren {
     display: inline-block;
-    background: linear-gradient(to right, #d31027, #df7884);
+    background: linear-gradient(to right, #fb8f02, #e2b053);
 }
 .nav > .nav-btn {
   display: none;
@@ -74,7 +74,7 @@ body {
     position: absolute;
     display: block;
     width: 100%;
-    background: linear-gradient(to right, #d31027, #df7884);
+    background: linear-gradient(to right, #e68507, #dbb773);
     height: 0px;
     transition: all 0.3s ease-in;
     overflow-y: hidden;
@@ -94,3 +94,63 @@ body {
   }
 }
 /* End of navbar styling */
+
+@import url(https://fonts.googleapis.com/css?family=Archivo+Black);
+
+.page {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 30vh;
+    font-family: 'Archivo Black';
+    background-color: #ffffff;
+}
+
+header {
+   position: relative;
+}
+
+h1 {
+    font-size: 12em;
+    font-weight: bold;
+    line-height: 1;
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation:  moving-background 70s ease infinite;
+    background-color: #FDB927;
+    background-size: 180%;
+    background-image: url("https://www.theloadout.com/wp-content/uploads/2020/04/csgo-new-maps-chlorine-update-april-2020.jpeg");
+}
+
+/* Inner white shadow */
+header:before {
+    position: absolute;
+    left: 4px;
+    letter-spacing: 4px;
+    top: 0px;
+    font-size: 187px;
+    font-weight: bold;
+    line-height: 1;
+    background: none;
+    text-transform: uppercase;
+    z-index: 2;
+    opacity: .3;
+}
+
+@keyframes moving-background {
+	0% {
+		background-position: -215% -220px;
+	}
+	50% {
+		background-position: 415% -230px;
+	}
+	100% {
+		background-position: -215% -220px;
+	}
+}
