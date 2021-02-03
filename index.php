@@ -5,6 +5,8 @@
     <!-- Including de head. !-->
     <?php include'./head.php'; ?>
     <link rel="stylesheet" href="assets/style/style.css">
+    <link rel="stylesheet" href="assets/style/login.scss">
+    <script src="assets/js/app.js"></script>
 </head>
 
 <body>
@@ -29,9 +31,11 @@
             <a href="#" target="_blank">Tactics</a>
             <a href="#" target="_blank">Smokes/Grenades</a>
             <a href="#" target="_blank">Info</a>
-            <a id="login-knop" href="http://">login</a>
+            <a id="login-knop" href=./login-page.html>login</a>
         </div>
     </div>
+
+    <!-- Moving background !-->
 
     <!-- Bootstrap scripts !-->
     <?php include'./bsscripts.php'; ?>
