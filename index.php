@@ -14,7 +14,7 @@
     <div class="nav" id="navbar-kleuren">
         <input type="checkbox" id="nav-check">
         <div class="nav-header">
-            <div class="nav-title">RUSH-B.COM</div>
+            <div class="nav-title">CSGO-FAMILY.COM</div>
         </div>
         <div class="nav-btn">
             <label for="nav-check">
@@ -33,14 +33,10 @@
         </div>
     </div>
 
-    <!-- Moving background !-->
-    <div class="page container-fluid">
-        <header>
-            <h1>Rush b</h1>
-            <h2>HOME</h2>
-        </header>
+    <div style="height: 500px;" class="box-shadow">
+        <img src="https://goexanimo.lv/storage/images/news/lg_csgo-2x2-turnirs-8-VUl54fQRkz.png" alt="">
     </div>
-    
+
     <!--Footer-->
     <div class="indexfooter">
         <p>Footer</p>
