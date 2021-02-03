@@ -93,8 +93,4 @@ body {
     overflow-y: auto;
   }
 }
-
-/* Login knop style */
-#login-knop {
-    border: 2px solid black;
-}
+/* End of navbar styling */
