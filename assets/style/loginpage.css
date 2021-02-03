@@ -1,105 +1,52 @@
 body {
-    background: linear-gradient(to right, #131516, #484949);
-    font-family: 'Ubuntu', sans-serif;
+    background: #3e4144;
 }
-
-.main {
-    background-color: #FFFFFF;
-    width: 400px;
-    height: 400px;
-    margin: 7em auto;
-    border-radius: 1.5em;
-    box-shadow: 0px 11px 35px 2px rgba(0, 0, 0, 0.14);
+.form {
+    margin: 50px auto;
+    width: 300px;
+    padding: 30px 25px;
+    background: white;
 }
-
-.sign {
-    padding-top: 40px;
-    color: black;
-    font-family: 'Ubuntu', sans-serif;
-    font-weight: bold;
-    font-size: 23px;
+h1.login-title {
+    color: #666;
+    margin: 0px auto 25px;
+    font-size: 25px;
+    font-weight: 300;
+    text-align: center;
 }
-
-.un {
-width: 76%;
-color: rgb(38, 50, 56);
-font-weight: 700;
-font-size: 14px;
-letter-spacing: 1px;
-background: rgba(136, 126, 126, 0.04);
-padding: 10px 20px;
-border: none;
-border-radius: 20px;
-outline: none;
-box-sizing: border-box;
-border: 2px solid rgba(0, 0, 0, 0.02);
-margin-bottom: 50px;
-margin-left: 46px;
-text-align: center;
-margin-bottom: 27px;
-font-family: 'Ubuntu', sans-serif;
+.login-input {
+    font-size: 15px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 25px;
+    height: 25px;
+    width: calc(100% - 23px);
 }
-
-form.form1 {
-    padding-top: 40px;
+.login-input:focus {
+    border-color:#6e8095;
+    outline: none;
 }
-
-.pass {
-        width: 76%;
-color: rgb(38, 50, 56);
-font-weight: 700;
-font-size: 14px;
-letter-spacing: 1px;
-background: rgba(136, 126, 126, 0.04);
-padding: 10px 20px;
-border: none;
-border-radius: 20px;
-outline: none;
-box-sizing: border-box;
-border: 2px solid rgba(0, 0, 0, 0.02);
-margin-bottom: 50px;
-margin-left: 46px;
-text-align: center;
-margin-bottom: 27px;
-font-family: 'Ubuntu', sans-serif;
-}
-
-
-.un:focus, .pass:focus {
-    border: 2px solid rgba(0, 0, 0, 0.18) !important;
-    
-}
-
-.submit {
-  cursor: pointer;
-    border-radius: 5em;
+.login-button {
     color: #fff;
-    background: linear-gradient(to right, #131516, #5c5e5f);
+    background: #55a1ff;
     border: 0;
-    padding-left: 40px;
-    padding-right: 40px;
-    padding-bottom: 10px;
-    padding-top: 10px;
-    font-family: 'Ubuntu', sans-serif;
-    margin-left: 35%;
-    font-size: 13px;
-    box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.04);
+    outline: 0;
+    width: 100%;
+    height: 50px;
+    font-size: 16px;
+    text-align: center;
+    cursor: pointer;
 }
-
-.forgot {
-    text-shadow: 0px 0px 3px rgba(117, 117, 117, 0.12);
-    color: black;
-    padding-top: 15px;
+.link {
+    color: #666;
+    font-size: 15px;
+    text-align: center;
+    margin-bottom: 0px;
 }
-
-a {
-    text-shadow: 0px 0px 3px rgba(117, 117, 117, 0.12);
-    color: black;
-    text-decoration: none
+.link a {
+    color: #666;
 }
-
-@media (max-width: 600px) {
-    .main {
-        border-radius: 0px;
-    }
+h3 {
+    font-weight: normal;
+    text-align: center;
 }
