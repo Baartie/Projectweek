@@ -135,9 +135,21 @@ body {
   right: 0;
   top: 0;
   width: 100%;
+  text-align: center;
 }
-
 .box-shadow img {
   max-width: 100%;
   width: auto;
+}
+/*hoofdtekst opmaak*/
+.hoofdtekst {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-weight: bold;
+  color: whitesmoke;
+  border: 10px solid;
+  font-size: 100px;
+  backdrop-filter: blur(25px);
 }
