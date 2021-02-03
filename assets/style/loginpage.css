@@ -1,5 +1,5 @@
 body {
-    background: linear-gradient(to right, #d31027, #df7884);
+    background: linear-gradient(to right, #131516, #484949);
     font-family: 'Ubuntu', sans-serif;
 }
 
@@ -14,7 +14,7 @@ body {
 
 .sign {
     padding-top: 40px;
-    color: #d31027;
+    color: black;
     font-family: 'Ubuntu', sans-serif;
     font-weight: bold;
     font-size: 23px;
@@ -74,7 +74,7 @@ font-family: 'Ubuntu', sans-serif;
   cursor: pointer;
     border-radius: 5em;
     color: #fff;
-    background: linear-gradient(to right, #d31027, #df7884);
+    background: linear-gradient(to right, #131516, #5c5e5f);
     border: 0;
     padding-left: 40px;
     padding-right: 40px;
@@ -88,13 +88,13 @@ font-family: 'Ubuntu', sans-serif;
 
 .forgot {
     text-shadow: 0px 0px 3px rgba(117, 117, 117, 0.12);
-    color: #E1BEE7;
+    color: black;
     padding-top: 15px;
 }
 
 a {
     text-shadow: 0px 0px 3px rgba(117, 117, 117, 0.12);
-    color: #E1BEE7;
+    color: black;
     text-decoration: none
 }
 
