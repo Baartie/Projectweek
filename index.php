@@ -7,11 +7,12 @@
     <link rel="stylesheet" href="assets/style/style.css">
     <link rel="stylesheet" href="assets/style/login.scss">
     <script src="assets/js/app.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
 
-    <div class="nav" id="navbar-kleuren">
+    <div class="nav " id="navbar-kleuren">
         <input type="checkbox" id="nav-check">
         <div class="nav-header">
             <div class="nav-title">CSGO-FAMILY.COM</div>
@@ -25,12 +26,11 @@
         </div>
 
         <div class="nav-links">
-            <a href="#" target="_blank">Home</a>
-            <a href="#" target="_blank">Tactics</a>
-            <a href="#" target="_blank">Smokes/Grenades</a>
-            <a href="./contact.php
-            " target="_blank">Contact</a>
-            <a id="login-knop" href=./login-page.html>login</a>
+            <a href="#">Home</a>
+            <a href="#">Tactics</a>
+            <a href="./contact.php">Contact</a>
+            <a href="#">Profile</a>
+            <a id="login-knop" class="" href=./login.php>login</a>
         </div>
     </div>
 
@@ -44,7 +44,7 @@
     <div class="container-fluid">
         <div class="row">
             <div class="column-66">
-                <h1 class="xlarge-font"><b>CSGO Tips</b></h1>
+                <h1 class="xlarge-font"><b>E-Sport</b></h1>
                 <h1 class="large-font" style="color:MediumSeaGreen;"></h1>
                 <p class="paragraph1">You should buy this app because lorem
                     ipsum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
@@ -53,7 +53,7 @@
                 <button class="button">Download Application</button>
             </div>
             <div class="column-33">
-                <img src="https://www.w3schools.com/w3images/img_app.jpg" width="335" height="471">
+                <img src="https://www.seekpng.com/png/full/121-1217542_steams-gemenskap-scream-cs-go-hd.png" width="400" height="400">
             </div>
         </div>
     </div>
@@ -62,10 +62,10 @@
     <div class="container-fluid">
         <div class="row">
             <div class="column-33">
-                <img src="https://www.w3schools.com/w3images/app5.jpg" alt="App" width="335" height="471">
+                <img src="https://www.pngkey.com/png/full/149-1499168_csgo-knife-knifes-csgo-knife-in-hand.png" width="100%" height="100%">
             </div>
             <div class="column-66">
-                <h1 class="xlarge-font"><b>Testkopje</b></h1>
+                <h1 class="xlarge-font"><b>Skins</b></h1>
                 <p class="paragraph1"> Sharp and clear photos with the
                     world's best photo engine, incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
                     quis nostrud exercitation ullamco laboris nisi ut aliquipex ea commodo consequat. Duis aute irure
@@ -79,7 +79,7 @@
     <div class="container-fluid">
         <div class="row">
             <div class="column-66">
-                <h1 class="xlarge-font"><b>Testkopje2</b></h1>
+                <h1 class="xlarge-font"><b>Gamemodes</b></h1>
                 <p class="paragraph1"> ipsum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
                     aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
                     commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
@@ -87,19 +87,9 @@
                 <button class="button">Download Application</button>
             </div>
             <div class="column-33">
-                <img src="https://www.w3schools.com/w3images/img_app.jpg" width="335" height="471">
+                <img src="http://pngimg.com/uploads/counter_strike/counter_strike_PNG21.png" width="100%" height="100%">
             </div>
         </div>
-    </div>
-
-
-
-
-
-
-    <!--Footer-->
-    <div class="indexfooter">
-        <p>Footer</p>
     </div>
 
     <!-- Bootstrap scripts -->
