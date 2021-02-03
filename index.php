@@ -14,9 +14,7 @@
     <div class="nav" id="navbar-kleuren">
         <input type="checkbox" id="nav-check">
         <div class="nav-header">
-            <div class="nav-title">
-                CSGO-Info
-            </div>
+            <div class="nav-title">RUSH-B.COM</div>
         </div>
         <div class="nav-btn">
             <label for="nav-check">
@@ -39,6 +37,7 @@
     <div class="page">
         <header>
             <h1>Rush b</h1>
+            <h2>HOME</h2>
         </header>
         </h1>
         <!-- Bootstrap scripts !-->
