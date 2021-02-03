@@ -5,9 +5,7 @@
     <!-- Including de head. !-->
     <?php include'./head.php'; ?>
     <link rel="stylesheet" href="assets/style/style.css">
-    <link rel="stylesheet" href="assets/style/login.scss">
     <script src="assets/js/app.js"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
@@ -27,7 +25,6 @@
 
         <div class="nav-links">
             <a href="#">Home</a>
-            <a href="#">Tactics</a>
             <a href="./contact.php">Contact</a>
             <a href="#">Profile</a>
             <a id="login-knop" class="" href=./login.php>login</a>
@@ -49,8 +46,11 @@
                 <p class="paragraph1">You should buy this app because lorem
                     ipsum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
                     aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-                    commodo consequat.</p>
-                <button class="button">Download Application</button>
+                    commodo consequat. Sharp and clear photos with the
+                    world's best photo engine, incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                    quis nostrud exercitation ullamco laboris nisi ut aliquipex ea commodo consequat. Duis aute irure
+                    dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                    <a class="button-links" href="./esports.php">Click here!</a>
             </div>
             <div class="column-33">
                 <img src="https://www.seekpng.com/png/full/121-1217542_steams-gemenskap-scream-cs-go-hd.png" width="400" height="400">
@@ -69,8 +69,11 @@
                 <p class="paragraph1"> Sharp and clear photos with the
                     world's best photo engine, incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
                     quis nostrud exercitation ullamco laboris nisi ut aliquipex ea commodo consequat. Duis aute irure
+                    dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Sharp and clear photos with the
+                    world's best photo engine, incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                    quis nostrud exercitation ullamco laboris nisi ut aliquipex ea commodo consequat. Duis aute irure
                     dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-                <button class="button">Read More</button>
+                    <a class="button-links" href="./skins.php">Click here!</a>
             </div>
         </div>
     </div>
@@ -83,8 +86,11 @@
                 <p class="paragraph1"> ipsum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
                     aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
                     commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                    fugiat nulla pariatur.</p>
-                <button class="button">Download Application</button>
+                    fugiat nulla pariatur. Sharp and clear photos with the
+                    world's best photo engine, incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                    quis nostrud exercitation ullamco laboris nisi ut aliquipex ea commodo consequat. Duis aute irure
+                    dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                    <a class="button-links" href="./gamemodes.php">Click here!</a>
             </div>
             <div class="column-33">
                 <img src="http://pngimg.com/uploads/counter_strike/counter_strike_PNG21.png" width="100%" height="100%">
