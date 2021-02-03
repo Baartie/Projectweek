@@ -34,14 +34,20 @@
     </div>
 
     <!-- Moving background !-->
-    <div class="page">
+    <div class="page container-fluid">
         <header>
             <h1>Rush b</h1>
             <h2>HOME</h2>
         </header>
-        </h1>
-        <!-- Bootstrap scripts !-->
-        <?php include'./bsscripts.php'; ?>
+    </div>
+    
+    <!--Footer-->
+    <div class="indexfooter">
+        <p>Footer</p>
+    </div>
+
+    <!-- Bootstrap scripts -->
+    <?php include'./bsscripts.php'; ?>
 
 </body>
 
