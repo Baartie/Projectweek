@@ -106,17 +106,6 @@ body {
 /* End of navbar styling */
 
 
-/*Footer Stijl*/
-.indexfooter {
-    position: fixed;
-    left: 0;
-    bottom: 0;  
-    width: 100%;
-    background-color: rgba(160, 160, 160, 0);
-    color: #8a979e;
-    text-align: center;
-    border-top: 2px solid #8a979e;
-}
 
 /* Shadow voor main page*/
 .box-shadow {
@@ -237,3 +226,4 @@ h1 {
 .paragraph1 {
   color: #8a979e;
 }
+
