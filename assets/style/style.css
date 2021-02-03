@@ -227,3 +227,10 @@ h1 {
   color: #8a979e;
 }
 
+.button-links {
+  border: 4px solid #49574a;
+  font-size: 30px;
+  padding: 5px;
+  color: #49574a;
+  font-weight: bold;
+}
