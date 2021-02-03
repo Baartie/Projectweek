@@ -130,6 +130,7 @@ h1 {
     text-align: center;
     text-transform: uppercase;
     color: #FFFFFF;
+    background-clip: unset;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     animation:  moving-background 70s ease infinite;
@@ -169,4 +170,16 @@ header:before {
 	100% {
 		background-position: -215% -220px;
 	}
+}
+
+/*Footer Stijl*/
+.indexfooter {
+    position: fixed;
+    left: 0;
+    bottom: 0;  
+    width: 100%;
+    background-color: rgba(160, 160, 160, 0);
+    color: white;
+    text-align: center;
+    border-top: 1px solid white;
 }
