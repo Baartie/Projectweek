@@ -35,6 +35,7 @@
 
     <div style="height: 500px;" class="box-shadow">
         <img src="https://goexanimo.lv/storage/images/news/lg_csgo-2x2-turnirs-8-VUl54fQRkz.png" alt="">
+        <h1 class="hoofdtekst">WELCOME!</h1>
     </div>
 
     <!--Footer-->
